@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NeoTech IT Solutions</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+  
+<body class="bg-white text-gray-800">
+
+<header class="bg-white shadow sticky top-0 z-50">
+  <div class="container mx-auto flex justify-between items-center px-6 py-4 max-w-7xl">
+
+    <a class="text-teal-600 font-bold text-2xl">NeoTech IT Solutions</a>
+    <div class="md:hidden">
+      <button id="menu_button" class="focus:outline-none">
+        <i class="fas fa-bars text-teal-600 text-2xl"></i>
+      </button>
+    </div>
+    <nav class="hidden md:block">
+      <ul class="flex space-x-6 text-gray-700 font-semibold">
+        <li><a href="#about" class="hover:text-teal-600 transition-colors duration-300">About</a></li>
+        <li><a href="#services" class="hover:text-teal-600 transition-colors duration-300">Services</a></li>
+        <li><a href="#testimonials" class="hover:text-teal-600 transition-colors duration-300">Testimonials</a></li>
+        <li><a href="#blog" class="hover:text-teal-600 transition-colors duration-300">Blog</a></li>
+        <li><a href="#contact" class="hover:text-teal-600 transition-colors duration-300">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="mobile_view" class="md:hidden hidden px-6 pb-4">
+    <ul class="flex flex-col space-y-4 text-gray-700 font-semibold">
+      <li><a href="#about" class="hover:text-teal-600 transition-colors duration-300">About</a></li>
+      <li><a href="#services" class="hover:text-teal-600 transition-colors duration-300">Services</a></li>
+      <li><a href="#testimonials" class="hover:text-teal-600 transition-colors duration-300">Testimonials</a></li>
+      <li><a href="#blog" class="hover:text-teal-600 transition-colors duration-300">Blog</a></li>
+      <li><a href="#contact" class="hover:text-teal-600 transition-colors duration-300">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="container mx-auto px-6 py-20 text-center bg-gray-50 max-w-7xl">
+  <h1 class="text-5xl font-bold text-teal-600 mb-6 drop-shadow-md">
+    Transform Your Business with NeoTech IT Solutions
+  </h1>
+  <p class="max-w-3xl mx-auto text-gray-700 mb-10 text-lg ">
+    We provide software development, cloud services, and strategic consulting to help your business thrive in the digital era.
+  </p>
+  <button
+    class="bg-teal-600 hover:bg-teal-700 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors duration-300">
+    Get Started
+  </button>
+</section>
+
+<section id="about" class="container mt-5 mx-auto px-6 py-20 bg-gray-50 max-w-7xl">
+  <div class="md:flex md:items-center md:gap-12">
+    <div class="md:w-1/2 mb-10 md:mb-0 overflow-hidden rounded-lg shadow-lg">
+      <img src="https://www.cio.com/wp-content/uploads/2025/03/3485346-0-65796900-1742380165-shutterstock_2431976515.jpg?quality=50&strip=all&w=1024"
+      class="w-full object-cover img-zoom" />
+    </div>
+    <div class="md:w-1/2 fade-in">
+      <h2 class="text-3xl font-bold mb-6 text-teal-600 drop-shadow-sm">About NeoTech</h2>
+      <p class="text-gray-700 mb-4 ">
+        NeoTech is a trusted IT services provider offering innovative digital solutions that help businesses adapt, grow, and thrive in a fast-changing world.
+      </p>
+      <p class="text-gray-700  mb-6">
+        With over a decade of experience and a passionate team of experts, we partner closely with our clients to deliver technology that transforms their operations.
+      </p>
+      <a href="#contact" class="inline-block bg-amber-400 hover:bg-amber-500 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300 shadow">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="container mx-auto px-6 py-20 bg-white max-w-7xl">
+  <h2 class="text-4xl font-bold text-teal-600 mb-12 text-center drop-shadow-sm fade-in">Our Services</h2>
+  <div class="grid gap-10 md:grid-cols-3 max-w-5xl mx-auto">
+    <div class="p-6 border rounded-lg shadow service-card fade-in delay-1">
+      <img src="https://www.webhopers.com/wp-content/uploads/2022/02/software-development-company-in-Karnal-1000x480.jpg"
+        class="rounded mb-4 img-zoom object-cover h-48 w-full" />
+      <h3 class="text-xl font-semibold mb-2">Software Development</h3>
+      <p class="text-gray-700">Custom applications crafted with the latest technologies to meet your unique business challenges and scale with you.</p>
+    </div>
+    <div class="p-6 border rounded-lg shadow service-card fade-in delay-2">
+      <img src="https://s3-ap-south-1.amazonaws.com/ricedigitals3bucket/AUPortalContent/2021/08/12060931/Untitled-design-88.png"
+        class="rounded mb-4 img-zoom object-cover h-48 w-full" />
+      <h3 class="text-xl font-semibold mb-2">Cloud Solutions</h3>
+      <p class="text-gray-700">Robust, secure cloud infrastructure setup, migration, and management for business continuity and agility.</p>
+    </div>
+    <div class="p-6 border rounded-lg shadow service-card fade-in delay-3">
+      <img src="https://www.enterpriseitworld.com/wp-content/uploads/2023/08/IT-Consulting-Company.jpg"
+        class="rounded mb-4 img-zoom object-cover h-48 w-full" />
+      <h3 class="text-xl font-semibold mb-2">IT Consulting</h3>
+      <p class="text-gray-700">Strategic advisory services helping you optimize technology investment and digital transformation.</p>
+    </div>
+    <div class="p-6 border rounded-lg shadow service-card fade-in delay-4">
+      <img src="https://etimg.etb2bimg.com/photo/88428872.cms"
+         class="rounded mb-4 img-zoom object-cover h-48 w-full" />
+      <h3 class="text-xl font-semibold mb-2">Cybersecurity Services</h3>
+      <p class="text-gray-700">Protect your business with threat detection, risk management, and robust security solutions tailored to your infrastructure.</p>
+    </div>
+    <div class="p-6 border rounded-lg shadow service-card fade-in delay-5">
+      <img src="https://media.istockphoto.com/id/1196702694/photo/designers-drawing-website-ux-app-development.jpg?s=612x612&w=0&k=20&c=nMyBxZuA19Lfow_eiUpZ1UAgibB4VJgR6t_7_e-tyMc="
+         class="rounded mb-4 img-zoom object-cover h-48 w-full" />
+      <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+      <p class="text-gray-700">Delivering intuitive and engaging user experiences through modern, responsive interface designs and usability best practices.</p>
+    </div>
+    <div class="p-6 border rounded-lg shadow service-card fade-in delay-6">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPTTE9BvmiMepgvBazO7sT2taIlz0o_KppEw&s"
+         class="rounded mb-4 img-zoom object-cover h-48 w-full" />
+      <h3 class="text-xl font-semibold mb-2">Data Analytics</h3>
+      <p class="text-gray-700">Turn data into actionable insights with our analytics services, helping you make smarter business decisions backed by evidence.</p>
+    </div>
+  </div>
+</section>
+
+<section id="clients" class="container mx-auto px-6 py-15 bg-gray-50 max-w-7xl">
+  <h2 class="text-4xl font-bold text-teal-600 mb-12 text-center drop-shadow-sm fade-in">Our Clients</h2>
+  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto items-center">
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center service-card fade-in delay-1 border border-gray-200">
+      <h3 class="text-xl font-semibold">NeoSoft</h3>
+      <p class="text-gray-600 mt-2">Helping local businesses with tailored software solutions.</p>
+    </div>
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center service-card fade-in delay-2 border border-gray-200">
+      <h3 class="text-xl font-semibold">Bluetech Solutions</h3>
+      <p class="text-gray-600 mt-2">Cloud migration and IT support for mid-sized companies.</p>
+    </div>
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center service-card fade-in delay-3 border border-gray-200">
+      <h3 class="text-xl font-semibold">Atorix</h3>
+      <p class="text-gray-600 mt-2">Streamlining logistics operations through smart IT solutions.</p>
+    </div>
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center service-card fade-in delay-4 border border-gray-200">
+      <h3 class="text-xl font-semibold">Bright Solutions</h3>
+      <p class="text-gray-600 mt-2">Providing smart IT solutions for retail businesses.</p>
+    </div>
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center service-card fade-in delay-5 border border-gray-200">
+      <h3 class="text-xl font-semibold">CloudTech</h3>
+      <p class="text-gray-600 mt-2">Expert cloud consulting and migration services.</p>
+    </div>
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center service-card fade-in delay-6 border border-gray-200">
+      <h3 class="text-xl font-semibold">TechNest</h3>
+      <p class="text-gray-600 mt-2">Innovative software development for small enterprises.</p>
+    </div>
+  </div>
+</section>
+  
+<section id="achievements" class="bg-white py-16">
+  <div class="container mx-auto px-6 max-w-5xl text-center">
+    <h2 class="text-4xl font-bold text-teal-600 mb-12 drop-shadow-sm fade-in">Achievements</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-gray-700">
+      
+      <div class="bg-gray-50 rounded-lg p-6 shadow-md flex flex-col items-center">
+        <i class="fas fa-clipboard-list text-teal-600 text-4xl mb-3"></i>
+        <h3 class="text-3xl font-extrabold text-teal-600 mb-2">50+</h3>
+        <p class="text-lg font-medium">Projects Completed</p>
+      </div>
+      <div class="bg-gray-50 rounded-lg p-6 shadow-md flex flex-col items-center">
+        <i class="fas fa-calendar-alt text-teal-600 text-4xl mb-3"></i>
+        <h3 class="text-3xl font-extrabold text-teal-600 mb-2">4</h3>
+        <p class="text-lg font-medium">Years of Experience</p>
+      </div>
+      <div class="bg-gray-50 rounded-lg p-6 shadow-md flex flex-col items-center">
+        <i class="fas fa-users text-teal-600 text-4xl mb-3"></i>
+        <h3 class="text-3xl font-extrabold text-teal-600 mb-2">30+</h3>
+        <p class="text-lg font-medium">Satisfied Clients</p>
+      </div>
+      <div class="bg-gray-50 rounded-lg p-6 shadow-md flex flex-col items-center">
+        <i class="fas fa-trophy text-teal-600 text-4xl mb-3"></i>
+        <h3 class="text-3xl font-extrabold text-teal-600 mb-2">10</h3>
+        <p class="text-lg font-medium">Awards & Recognitions</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+  
+<section id="blog" class="container mx-auto px-6 py-20 bg-white max-w-7xl">
+  <h2 class="text-4xl font-bold text-teal-600 mb-12 text-center drop-shadow-sm fade-in">Latest Blog Posts</h2>
+  <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+    <article class="border rounded-lg shadow p-6 service-card fade-in delay-1 transition duration-300 hover:shadow-lg">
+      <img src="https://cdn.sanity.io/images/uqxwe2qj/production/a52a7b6e874bddf41ba1eb35ea47cfdb553fe10f-943x494.png?q=80&auto=format&fit=clip&w=943"
+        class="rounded mb-4 img-zoom object-cover h-48 w-full" />
+      <h3 class="text-xl font-semibold mb-2">Top 5 IT Trends to Watch in 2025</h3>
+      <p class="text-gray-700 mb-4">Explore the emerging technologies that will shape the IT landscape this year and beyond.</p>
+      <a class="text-teal-600 hover:text-teal-700 font-semibold">Read More</a>
+    </article>
+    <article class="border rounded-lg shadow p-6 service-card fade-in delay-2 transition duration-300 hover:shadow-lg">
+      <img src="https://community.nasscom.in/sites/default/files/styles/960_x_600/public/media/images/Nasscom-Cloud-solutions.jpg?itok=WU5DPADV"
+      class="rounded mb-4 img-zoom object-cover h-48 w-full" />
+      <h3 class="text-xl font-semibold mb-2">Benefits of Cloud Solutions</h3>
+      <p class="text-gray-700 mb-4">Learn why small and medium businesses are embracing cloud solutions for scalability and security.</p>
+      <a class="text-teal-600 hover:text-teal-700 font-semibold">Read More</a>
+    </article>
+    <article class="border rounded-lg shadow p-6 service-card fade-in delay-3 transition duration-300 hover:shadow-lg">
+      <img src="https://www.consultantsreview.com/newstransfer/upload/ga5l1Untitled-2.jpg"
+        class="rounded mb-4 img-zoom object-cover h-48 w-full" />
+      <h3 class="text-xl font-semibold mb-2">How IT Consulting Drives Business Success</h3>
+      <p class="text-gray-700 mb-4">Discover how professional IT consulting can help your organization optimize resources and innovate.</p>
+      <a class="text-teal-600 hover:text-teal-700 font-semibold">Read More</a>
+    </article>
+  </div>
+</section>
+
+<section id="testimonials" class="container mx-auto px-6 py-20 bg-white max-w-7xl">
+  <h2 class="text-4xl font-bold text-teal-600 mb-12 text-center drop-shadow-sm fade-in">What Our Clients Say</h2>
+  <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+    <div
+      class="bg-gray-50 p-8 rounded-lg shadow-lg service-card fade-in delay-1 transform transition duration-300 hover:scale-105">
+      <p class="italic text-gray-600 mb-6">NeoTech software development team exceeded our expectations delivering a seamless and scalable platform.</p>
+      <div class="flex items-center">
+        <img src="https://t4.ftcdn.net/jpg/02/24/86/95/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="Client 1" class="w-14 h-14 rounded-full mr-4 object-cover" />
+        <p class="font-semibold">Naveen</p>
+      </div>
+    </div>
+    <div
+      class="bg-gray-50 p-8 rounded-lg shadow-lg service-card fade-in delay-2 transform transition duration-300 hover:scale-105">
+      <p class="italic text-gray-600 mb-6">Their cloud migration services were professional and efficient we had zero downtime and great support.</p>
+      <div class="flex items-center">
+        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-881954-2379004.jpg&fm=jpg" alt="Client 2" class="w-14 h-14 rounded-full mr-4 object-cover" />
+        <p class="font-semibold">Yash Rai</p>
+      </div>
+    </div>
+    <div
+      class="bg-gray-50 p-8 rounded-lg shadow-lg service-card fade-in delay-3 transform transition duration-300 hover:scale-105">
+      <p class="italic text-gray-600 mb-6">Thanks to NeoTech consulting, we revamped our IT strategy and improved operational efficiency drastically.</p>
+      <div class="flex items-center">
+        <img src="https://img.freepik.com/free-photo/smiling-beautiful-young-woman-standing-posing_171337-11412.jpg?semt=ais_hybrid&w=740" alt="Client 3" class="w-14 h-14 rounded-full mr-4 object-cover" />
+        <p class="font-semibold">Rivika</p>
+      </div>
+    </div>
+  </div>
+</section>
+  
+<section id="contact" class="container mx-auto px-6 py-20 bg-gray-50 max-w-3xl rounded-lg shadow-lg">
+  <h2 class="text-3xl font-bold text-teal-600 mb-12 text-center drop-shadow-sm">Contact Us</h2>
+  <form class="space-y-6 bg-white p-8 rounded-lg shadow">
+    <div>
+      <label for="name" class="block mb-2 font-semibold text-gray-700">Name</label>
+      <input id="name" type="text" placeholder="enter name"
+        class="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400" />
+    </div>
+    <div>
+      <label for="email" class="block mb-2 font-semibold text-gray-700">Email</label>
+      <input id="email" type="email" placeholder="abc@gmail.com"
+        class="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400" />
+    </div>
+    <div>
+      <label for="message" class="block mb-2 font-semibold text-gray-700">Message</label>
+      <textarea id="message" rows="5" placeholder="enter message here..."
+        class="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400"></textarea>
+    </div>
+    <button
+      class="w-1/2 bg-teal-600 hover:bg-teal-700 text-white font-semibold py-4 rounded-lg transition-colors duration-300 shadow-lg">
+      Send Message
+    </button>
+  </form>
+</section>
+
+<footer class="bg-teal-600 text-white py-12 mt-20">
+  <div class="container mx-auto px-6 max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-10">
+    <div>
+      <h3 class="text-lg font-bold mb-4">NeoTech IT Solutions</h3>
+      <p class="max-w-xs">
+        Delivering innovative technology services with a customer-first approach. Helping your business reach new heights.
+      </p>
+      <div class="flex space-x-4 mt-4">
+        <a href="#" class="hover:text-gray-200 text-white text-xl"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="hover:text-gray-200 text-white text-xl"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-gray-200 text-white text-xl"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="hover:text-gray-200 text-white text-xl"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div>
+      <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+      <ul>
+        <li><a href="#about" class="hover:underline">About</a></li>
+        <li><a href="#services" class="hover:underline">Services</a></li>
+        <li><a href="#blog" class="hover:underline">Blog</a></li>
+        <li><a href="#contact" class="hover:underline">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-lg font-bold mb-4">Contact Info</h3>
+      <p class="mb-2"><i class="fas fa-envelope mr-2"></i> lalit@gmail.com</p>
+      <p class="mb-2"><i class="fas fa-phone mr-2"></i> 1234567890</p>
+      <p><i class="fas fa-map-marker-alt mr-2"></i> Wakad Pune, Maharashtra, India</p>
+    </div>
+  </div>
+  <hr class="mt-5 mb-5">
+  <div class="text-center mt-5 text-sm text-teal-200">&copy; 2025 NeoTech IT Solutions. All rights reserved.</div>
+</footer>
+  
+
+<script>
+  const menuButton = document.getElementById("menu_button");
+  const mobileMenu = document.getElementById("mobile_view");
+  menuButton.onclick = () => {
+    mobileMenu.classList.toggle("hidden");
+  };
+</script>
+</body>
+</html>
